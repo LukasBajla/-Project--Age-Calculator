@@ -1,22 +1,3 @@
-@font-face {
-  font-family: Poppins;
-  src: url(./assets/fonts/Poppins-Bold.ttf);
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: Poppins;
-  src: url(./assets/fonts/Poppins-BoldItalic.ttf);
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: Poppins;
-  src: url(./assets/fonts/Poppins-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
-}
-
 :root {
   --purple: hsl(259, 100%, 65%);
   --lightRed: hsl(0, 100%, 67%);
@@ -36,7 +17,7 @@ svg {
 
 html {
   /* font-family: Poppins; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: hsl(0, 0%, 94%);
 }
 input {
