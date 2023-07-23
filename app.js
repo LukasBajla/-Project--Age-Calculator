@@ -204,7 +204,7 @@ const App = {
           // console.log("resultBox : "+resultBox[i].innerHTML);
           // console.log("Math: "+data[i]+" + "+(time/100));
           data[i]++;
-          animSpeed += 1;
+          animSpeed += .2;
           setTimeout(animation, animSpeed);
         }
       };
